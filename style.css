@@ -1,3 +1,19 @@
+
+/*
+=================================================
+Default
+=================================================
+*/
+
+body{
+    padding-top:70px;
+}
+
+p, h2, h3, h4, h5{
+    color: black;
+}
+
+
 /*
 =================================================
 Nav Bar
@@ -12,10 +28,17 @@ Homepage
 =================================================
 */
 
-.img-fluid {
+.navbar-img {
     border-radius: 15%;
     padding: 5%;
+    width: 75%;
 }
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+}
+
 /*
 =================================================
 About 
@@ -38,5 +61,27 @@ About
     margin-top: 0;
 }
 .profile p {
+    margin-bottom: 10px;
+}
+
+.profile-link {
+    color: red;
+}
+
+.profile-link:hover{
+    color: blue;
+}
+
+/*
+=================================================
+Split 
+=================================================
+*/
+
+.calendar {
+    margin-top: 20px;
+}
+
+.day {
     margin-bottom: 10px;
 }
