@@ -18,7 +18,7 @@
     <!-- NAVIGATION -->
         <nav id="home" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">VIRTUAL TRAINER</a>
+                <a class="navbar-brand" href="#">YOUR VIRTUAL TRAINER</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,7 +28,13 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Splits</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Lifts</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Diets</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -42,28 +48,75 @@
        <div class="px-4 py-5 mb-5 text-center bg-light">
         <h1 class="display-5 fw-bold">Welcome</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Welcome to Virtual Trianer (VT) your one stop shop to optimizing your lifitng for maximum gains. Search through our plethera of informative programs for optimizing your lift everytime you step in the gym. Our misson is to make lifting as easy and fun as possible with simple, easy to use, programs for beginners and expierenced lifters to crush their fitness goals. Whether its muscular strength, growth, or endurance VT got you covered.
+          <p class="lead mb-4">Welcome to Your Virtual Trianer (VT) your one stop shop to optimizing your lifitng expirence. Search through our plethera of informative programs for optimizing your lifts everytime you step in the gym. Our misson is to make lifting as easy and fun as possible with simple, easy to use, programs for beginners and expierenced lifters to crush their fitness goals. Whether its muscular strength, growth, or endurance VT has your back.
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           </div>
         </div>
     </div>
-    </body>
 
-    <!-- THREE COLUMNS -->
-    <div id="home" class="container text-center">
-        <div class="row">
-            <div class="col-sm-4 px-5 my-3">
-                <img src="images/barbell.jpg" class="img-fluid feature">
-                <h5>Splits</h5>
-            </div>
-            <div class="col-sm-4 px-5 my-3">
-                <img src="images/barbell.jpg" class="img-fluid mb-3 feature">
-                <h5>Lifts</h5>
-            </div>
-            <div class="col-sm-4 px-5 my-3">
-                <img src="images/barbell.jpg" class="img-fluid mb-3 feature">
-                <h5>Extra Informative</h5>
-            </div>
+    <!-- ABOUT -->
+    <div class="container py-5" id="tabs">
+        <div class="row py-5">
+            <div class="row">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">About</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Who Am I</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Citation</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">About</h4>
+                            <p>
+                                Your Virtual Trainer is comprised of different information about different workout programms/splits, lifts, and dieting programs that I have learned throught researching for this project and my own person expirence. It covers how to target different muscle groups, how often you should target each one a week. How often you should hit the gym, etc. I also explores the differnce between training for strength, muscle growth/hypertrophy, and endurance.
+                            </p>
+                            <p>
+                                **DISCLAIMER**
+                                Reminder all of this information is purely for informing people about lfitng. I strongly encourage you to look at other information and espriement. This is not a one all be all thing, find what works for you and crush your fitness goals.
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Who Am I</h4>
+                            <p>
+                                You now know what VT is , but who am I. My name is Phillip Maita, and am currentlty enrolled at Glenbrook South Highschool (Sophmore). I have about 6 months of expirence in the gym, and hit the gym about 6 times a week, and have been researching lfiting and dieting for about a year now. I am not a professional by any means and all of my information is purely a culmination of other resources from proffessionals, influencers and my real world expirence with my own dieting and lifting.   
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Citation</h4>
+                            <div class="profile">
+                                <img src="images/RP.jpeg" alt="Person 1">
+                                <h2>Renisance Periodization</h2>
+                                <a href="https://rpstrength.com/" target="_blank">Website</a>
+                                <a href="https://www.youtube.com/@RenaissancePeriodization/featured" target="_blank">Youtube</a>
+                            </div>
+                            
+                            <div class="profile">
+                                <img src="images/Jeff Nipard.jpeg" alt="Person 1">
+                                <h2>Jeff Nippard</h2>
+                                <a href="https://www.youtube.com/@JeffNippard" target="_blank">Youtube</a>
+                                <a href="https://www.instagram.com/JeffNippard/" target="_blank">Youtube</a>
+                                <a href="https://jeffnippard.com/">Website</a>
+                                <a href="https://jeffnippard.com/pages/newsletter">Newsletter</a>
+                                <a href="https://macrofactorapp.com/macrofactor/#jeff">App</a>
+                            </div>
+
+                            <div class="profile">
+                                <img src="images/Davis Diley.jpg" alt="Person 1">
+                                <h2>Davis Diley</h2>
+                                <a href="https://www.youtube.com/@DavisDiley" target="_blank">Youtube</a>
+                                <a href="https://www.tiktok.com/@davis.diley?lang=en" target="_blank">Tik Tok</a>
+                                <a href="https://www.instagram.com/davis.diley/?hl=en" target="_blank">Instagram</a>
+                                <a href="https://www.myliftfitness.com/training-app" target="_blank">App</a>
+                            </div>
+                    </div>
+                  </div>
+                </div>
         </div>
     </div>
+    </body>
 </html>
