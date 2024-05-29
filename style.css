@@ -14,6 +14,7 @@ p, h2, h3, h4, h5{
 }
 
 
+
 /*
 =================================================
 Nav Bar
@@ -78,3 +79,12 @@ Split
 =================================================
 */
 
+.split-nav:hover{
+    color: blue !important;
+}
+
+.split-nav-img{
+    border-radius: 15%;
+    padding: 5%;
+    width: 75%;
+}
