@@ -88,3 +88,18 @@ Split
     padding: 5%;
     width: 75%;
 }
+
+/*
+=================================================
+Split 
+=================================================
+*/
+
+/* Chest */
+.workouts-text {
+    text-align: left;
+}
+
+.workout-links:hover{
+    color: blue !important;
+}
