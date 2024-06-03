@@ -91,12 +91,25 @@ Splits
 
 /*
 =================================================
+<<<<<<< HEAD
 Workouts 
+=======
+Split 
+>>>>>>> 8a74066a0cc213d3bb6a67cc2a903a4f05a35ee8
 =================================================
 */
 
 /* Chest */
+<<<<<<< HEAD
 
 .chest-img {
     max-width: 50%;
+=======
+.workouts-text {
+    text-align: left;
+}
+
+.workout-links:hover{
+    color: blue !important;
+>>>>>>> 8a74066a0cc213d3bb6a67cc2a903a4f05a35ee8
 }
